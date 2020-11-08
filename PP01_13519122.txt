@@ -1,0 +1,42 @@
+/*Untuk File .txt*/
+
+Bagian II 
+
+Query : | ?- suami(X,nurbaya).
+X = william ?
+
+Query : | ?- anak(smallfaris,Y), saudara(X,Y), pria(X).
+X = jovan
+Y = farras ? ;
+X = zunan
+Y = farras ? ;
+X = william
+Y = siti
+
+Query : | ?- mertua(yoga,X).
+X = siti
+
+Query : | ?- sepupu(X,babythajeb).
+X = smallfaris
+
+Query : | ?- cucu(smallfaris,X), wanita(X).
+X = lisa ? ;
+X = asin
+
+Query : | ?- cucu(X,padil).
+X = babythajeb
+
+Query : | ?- suami(Y,siti), saudara(X,Y).
+X = jovan
+Y = farras ? ;
+X = zunan
+Y = farras
+
+Query : | ?- sepupu(babythajeb,X).
+X = smallfaris
+
+
+
+
+
+
